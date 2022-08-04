@@ -1,0 +1,121 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="T^sGT4:`UtLsX3-3pAq4" x="454" y="-211"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="controls_repeat_ext" id="v^%[2_^FU1Nr*@z{Km:~"><value name="TIMES"><shadow type="math_whole_number" id="[}^2q*S.hiDPj=9UmA{p"><field name="NUM">100</field></shadow></value><statement name="DO"><block type="set_traffic_light_state" id="onCvgbJLB8zg]zB_D]dT"><field name="lightState">Kitronik_STOPbit.LightStates.Stop</field><next><block type="set_traffic_light_led" id="%G#WQ-]3qVzsV7eRMva2"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="QHB*Ss;o-)XVhCk$K;4q"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="Xdxk81^/NL:1l2%@OOFI"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_show_leds" id="MuyX/v,DS$MIQ2!gl)mi"><field name="LEDS">`
+        # . # # # 
+        # . # . # 
+        # # # . # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=".1bv$`Oz04%cecbT89g)"><field name="LEDS">`
+        . # . . . 
+        . # # # # 
+        . # . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="Mr5.Qbkb7307ai;8_mh1"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="{a4-$[c,utnPmChYrv#W"><field name="LEDS">`
+        # # # . . 
+        # . # . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="qr2j04Swt,2zULcOuLUG"><value name="pause"><shadow type="timePicker" id="mg,h9R*;V/}Pq$s7nU{:"><field name="ms">5000</field></shadow></value><next><block type="set_traffic_light_state" id="vvOP$beVg@I:qkI8HJcL"><field name="lightState">Kitronik_STOPbit.LightStates.Go</field><next><block type="set_traffic_light_led" id="j(cek@,wcmENBsh*Lh,!"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="zKSsLT7?+7Vp{}X5^)6L"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="7GcIo#|{`~)bV4x2!cXR"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_show_leds" id="}J?Q3#-o.LEPe?pv/2XH"><field name="LEDS">`
+        # # # . # 
+        # . . # . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=")TCp?(/k,7]`hST=BcFr"><field name="LEDS">`
+        # . # . # 
+        # . # . # 
+        # . # . # 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="kg6uMrm)eTx$wcb=:KXc"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="R|`p8?vrwabzwBVeg7bA"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="2aQ~P?y[s?hN^c3.:Y}L"><value name="pause"><shadow type="timePicker" id="s7dcO%RLjys2p~E]5^dR"><field name="ms">2000</field></shadow></value><next><block type="set_traffic_light_state" id="5:mOoD|ltYhGVK`k4Qlp"><field name="lightState">Kitronik_STOPbit.LightStates.GetReady</field><next><block type="set_traffic_light_led" id="zmv6SgSr=_GPel}-`mDw"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="E-qQ[~D2=LGg-ol!$R|:"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="EW;MHR[O3R^.^h*Vo#Yy"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_show_leds" id="!RA2]],d-|f3^gc^]Ccf"><field name="LEDS">`
+        . . # # # 
+        # . # . # 
+        # . . . # 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="GL~!SR6-#lpuV/$A/D?j"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_pause" id="mu}h7oZ?u}d3gZLb.spK"><value name="pause"><shadow type="timePicker" id="h=rt8GN.tIZZ}Xxz6fWZ"><field name="ms">7000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="X(TKj3Ngd#Q+iv}F~x:l" x="865" y="-101"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="set_traffic_light_state" id="u;!d4^F9x1f^%WrMVI8{"><field name="lightState">Kitronik_STOPbit.LightStates.Go</field><next><block type="set_traffic_light_led" id="M5m{/T#40Yl,kin2YKTI"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="cY(y3EVPEtjZpUV{1h=5"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="c_EdRu9#8p]lZLl8;}ka"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_show_leds" id="2`3NV)2pQ{LUS]BB$QlA"><field name="LEDS">`
+        . . # # # 
+        # . # . # 
+        # . . . # 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="RD/8QBj]]SYXRAsyep1m"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="^Pq}`=yAvqD;2#v#HH0%" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="set_traffic_light_state" id="6X3x^NPr/ur!H*l,Yh#q"><field name="lightState">Kitronik_STOPbit.LightStates.Stop</field><next><block type="set_traffic_light_led" id="WVK(^d`71MU^^Qx6HTiK"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="F11cY2SEsGA^Ho[[^=@D"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="^hYuC8!O7z[e8u?{3(Kc"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_show_leds" id="*h#`?RQt*Esvwr/2tpx-"><field name="LEDS">`
+        # . # # # 
+        # . # . # 
+        # # # . # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="f|JH!VD]-e!7T2igY]F["><field name="LEDS">`
+        . # . . . 
+        . # # # # 
+        . # . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="nj4Ta)Aci8oY6p7FCoeq"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="j9l6li49!ytV7hVe`t%q"><field name="LEDS">`
+        # # # . . 
+        # . # . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="8s*6G/]YXQTkYa2UO1mr"><value name="pause"><shadow type="timePicker" id="]_%rat/JayL#$_2Jmi`2"><field name="ms">2000</field></shadow></value><next><block type="set_traffic_light_state" id="}`E3qVcU#AM0oWDo-MsN"><field name="lightState">Kitronik_STOPbit.LightStates.Go</field><next><block type="set_traffic_light_led" id="s6Lg_:CKB-DhpR6/L#mY"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="]9|D[T=]VG0hHyLTj?7f"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="KNajUKi=@i`y.mmW(VQj"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_show_leds" id="TiVgn`PihTX07:|m@^.x"><field name="LEDS">`
+        # # # . # 
+        # . . # . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=".XaB#p30,U+k5g(+N,Dt"><field name="LEDS">`
+        # . # . # 
+        # . # . # 
+        # . # . # 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="Vs|;T*nTxEdj*2By]6K("><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="^rC:^8a3l)+s4;0RvA4`"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="k:z}IK-eRF@%L2$kI0KZ"><value name="pause"><shadow type="timePicker" id="8Z;pWP{aT8N{nJD!XXpl"><field name="ms">2000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
